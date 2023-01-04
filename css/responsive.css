@@ -1,0 +1,1744 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---For Laptop---*/
+@media (max-width: 1800px) {}
+
+@media (max-width: 1299px) {}
+
+/*---For Laptop---*/
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (max-width: 1130px) {}
+
+@media (min-width: 992px) and (max-width: 1024px) {}
+
+@media (min-width: 992px) {
+    .sosal-midia-icn {
+        margin-right: -31px;
+    }
+}
+
+/*---For Horizental iPad---*/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+/*---For Vertical iPad---*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header .navbar {
+        padding: 0 0;
+    }
+
+    .banner-text h3 {
+        padding-right: 20%;
+    }
+
+    .banner-text p {
+        padding-right: 14%;
+        margin-top: 25px;
+        font-size: 19px;
+    }
+
+    .about-png-sec {
+        position: unset;
+        text-align: center;
+    }
+
+    .img-time-icon {
+        display: none;
+    }
+
+    .about-png-sec img {
+        width: 80%;
+        transform: rotate(90deg);
+    }
+
+    .head {
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .background-dottd {
+        height: 562px;
+        width: 562px;
+    }
+
+    .costomr-page img {
+        width: 124px;
+        height: 124px;
+    }
+
+    .info {
+        display: flex;
+        align-items: end;
+        flex-flow: column;
+        flex-direction: column-reverse;
+        margin-top: 44px;
+        margin-left: -46px;
+    }
+
+    .info:last-child {
+        display: flex;
+        align-items: end;
+        flex-flow: column;
+        flex-direction: column-reverse;
+        margin-top: -18px;
+        margin-right: 10px;
+    }
+
+    img.Janendra {
+        margin-top: -37px;
+        margin-right: 23px;
+    }
+
+    img.Charles-img {
+        margin-right: -4px;
+        margin-top: 71px;
+    }
+
+    .text-type p:first-child {
+        font-size: 20px;
+    }
+
+    .info img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .Rubber {
+        margin-left: -9px;
+    }
+
+    img.kd-img {
+        margin-right: 37px;
+    }
+
+    .koya {
+        margin-right: -80px;
+    }
+
+    .costomr-page {
+        margin-top: -125px;
+    }
+
+    .costomr-page h5 {
+        padding: 9px 0 8px;
+        font-size: 22px;
+    }
+
+    .kd-info {
+        margin-top: -56px;
+    }
+
+    .Polymers-kd {
+        margin-top: -56px;
+    }
+
+    .text-jk {
+        margin-right: 25px;
+    }
+
+    .text-Daw {
+        margin-left: 83px;
+    }
+
+    .solar-home-main h2 {
+        font-size: 33px;
+        margin: 0 0 2px;
+    }
+
+    .img-solr-home {
+        left: 0;
+    }
+
+    .img-solr-home img {
+        max-width: 84%;
+    }
+
+    .milestone .context-container {
+        width: 57.5%;
+    }
+
+    .milestone .image-container img {
+        left: -83px;
+    }
+
+    .item.man-slider img {
+        width: 48%;
+    }
+
+    .previous {
+        top: -170px;
+        left: -20%;
+    }
+
+    .previous img {
+        width: 73%;
+    }
+
+    .next {
+        top: -168px;
+        right: -29%;
+    }
+
+    .next img {
+        width: 81%;
+    }
+
+    .main-footer {
+        margin-top: 62px;
+    }
+
+    .footer-logo img {
+        width: 37%;
+    }
+
+    .footer-logo {
+        text-align: start;
+    }
+
+    .sosal-midia-icn {
+        justify-content: start;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+
+    /* Products_Page */
+
+    .product_text-main-page {
+        position: absolute;
+        bottom: -46px;
+        margin-left: 21px;
+        z-index: 1;
+    }
+
+
+    /* Achievement_Page*/
+
+
+    .achievement_page_after_set::after {
+        width: unset;
+    }
+
+    .achievement_text-main-page {
+        position: absolute;
+        bottom: -85px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .achievement_text-main-page h2 {
+        color: #fff;
+    }
+
+    .main-achievement-sec {
+        margin: 121px 0 124px;
+    }
+
+    .awards_page_before_sec::before {
+        left: 16%;
+    }
+
+    .awards_page_before_sec::after {
+        right: 16%;
+    }
+
+    /* Contact_Page */
+
+    .contact_page_after_set::after {
+        width: unset;
+    }
+
+    .contact_text-main-page {
+        position: absolute;
+        bottom: -43px;
+        margin-left: 0;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_text-main-page h2 {
+        color: #fff;
+    }
+
+    .additional {
+        margin: 0;
+    }
+
+    .column {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        color: #a1a1a1;
+    }
+
+    .destop_none {
+        display: block;
+    }
+
+    .menu-block {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: #000;
+    }
+
+    .header .navbar:hover .nav-item a:hover {
+        border: none;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+    .main-about-sec {
+        margin: 121px 0 102px;
+    }
+
+    .brighte_text {
+        margin: 0px 50px;
+    }
+
+    .brighte_text h2 {
+        margin-bottom: 5px;
+    }
+
+    .brighter {
+        width: 92%;
+        height: 500px;
+        margin: auto;
+    }
+
+    .about_page_after_set::after {
+        width: unset;
+    }
+
+    .our_founding_sec .container {
+        max-width: 918px;
+    }
+
+    .our_founding_left_content {
+        padding: 20px 0px 0;
+    }
+
+    .our_founding_right_img_only .pattern-circle {
+        margin: auto;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 25%;
+        width: 60%;
+        top: unset;
+    }
+
+    .power_with_main_sec {
+        padding: 39px 0 66px;
+    }
+
+    /* Products_Page */
+
+    .product_page_after_set::after {
+        width: unset;
+    }
+
+
+
+    .product_text-main-page h1 {
+        color: #ffff;
+    }
+
+    .product_text-main-page h2 {
+        color: #fff;
+    }
+}
+
+/*---For Mobile---*/
+@media (max-width: 767px) {
+
+    .header .navbar {
+        padding: 0 12px;
+    }
+
+    .banner-text h3 {
+        padding-right: 6%;
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .banner-text p {
+        padding-right: 5%;
+        margin-top: 38px;
+        font-size: 21px;
+        line-height: 33px;
+    }
+
+    .img-time-icon {
+        display: none;
+    }
+
+    .about-conten p {
+        font-size: 20px;
+        margin: 28px 0 45px;
+    }
+
+    .about-png-sec {
+        position: unset;
+        text-align: center;
+    }
+
+    .about-png-sec img {
+        width: 90%;
+        transform: rotate(90deg);
+    }
+
+    .solar-home-main h2 {
+        font-size: 19px;
+        line-height: 35px;
+        margin: 0 0 10px;
+    }
+
+    .img-solr-home {
+        left: 0;
+    }
+
+    .img-solr-home img {
+        max-width: 76%;
+    }
+
+    .milestone .background {
+        top: 3%;
+    }
+
+    .milestone {
+        padding: 324px 0 274px;
+    }
+
+    .milestone .container {
+        max-width: 693px;
+    }
+
+    .milestone .image-container img {
+        left: -59px;
+        width: 72%;
+    }
+
+    .item.man-slider img {
+        width: 62%;
+    }
+
+    .owl-nav {
+        left: 14px;
+        right: 11px;
+    }
+
+    .previous {
+        top: -160px;
+        left: -22%;
+    }
+
+    .previous img {
+        width: 66%;
+    }
+
+    .next {
+        top: -203px;
+        right: -35%;
+    }
+
+    .next img {
+        width: 62%;
+    }
+
+    .head {
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .background-dottd {
+        height: 562px;
+        width: 562px;
+    }
+
+    .info {
+        display: flex;
+        align-items: end;
+        flex-flow: column;
+        flex-direction: column-reverse;
+        margin-top: 44px;
+        margin-left: -46px;
+    }
+
+    .info:last-child {
+        display: flex;
+        align-items: end;
+        flex-flow: column;
+        flex-direction: column-reverse;
+        margin-top: -18px;
+        margin-right: 10px;
+    }
+
+    img.Janendra {
+        margin-top: -37px;
+        margin-right: 23px;
+    }
+
+    img.Charles-img {
+        margin-right: -4px;
+        margin-top: 71px;
+    }
+
+    .text-type p:first-child {
+        font-size: 20px;
+    }
+
+    .info img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .Rubber {
+        margin-left: -9px;
+    }
+
+    img.kd-img {
+        margin-right: 37px;
+    }
+
+    .koya {
+        margin-right: -80px;
+    }
+
+    .costomr-page {
+        margin-top: -125px;
+    }
+
+    .costomr-page h5 {
+        padding: 9px 0 8px;
+        font-size: 22px;
+    }
+
+    .kd-info {
+        margin-top: -56px;
+    }
+
+    .Polymers-kd {
+        margin-top: -56px;
+    }
+
+    .text-jk {
+        margin-right: 25px;
+    }
+
+    .text-Daw {
+        margin-left: 83px;
+    }
+
+    .main-footer .container {
+        max-width: 649px;
+    }
+
+    .main-footer {
+        margin-top: 26px;
+    }
+
+    .footer-logo {
+        text-align: start;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+
+    .sosal-midia-icn {
+        justify-content: start;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+    .about_text-main-page {
+        bottom: -86px;
+    }
+
+    .about_text-main-page h2 {
+        font-size: 56px;
+        color: #fff;
+    }
+
+    .brighte_text p {
+        font-size: 19px;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 29%;
+    }
+
+    .our_founding_left_content {
+        padding: 20px 0px 0;
+        margin: 0 50px;
+    }
+
+    .our_founding_left_content h2 {
+        margin-bottom: 5px;
+    }
+
+    .our_founding_right_img_only {
+        margin-top: 37px;
+    }
+
+    .power_with_main_sec .container {
+        max-width: 696px;
+    }
+
+    .light_img_power {
+        width: unset;
+    }
+
+
+    /* Products_Page */
+
+    .logo img {
+        width: 112px;
+    }
+
+    .main_product_sec {
+        margin: 91px 0 116px;
+    }
+
+    .product_text-main-page h2 {
+        max-width: unset;
+    }
+
+    .product_text-main-page {
+        position: absolute;
+        bottom: -43px;
+        text-align: center;
+        width: 85%;
+        z-index: 1;
+    }
+
+
+
+    /* Achievement_Page*/
+
+
+    .achievement_page_after_set::after {
+        width: unset;
+    }
+
+    .achievement_text-main-page {
+        position: absolute;
+        bottom: -85px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .achievement_text-main-page h2 {
+        color: #fff;
+    }
+
+    .main-achievement-sec {
+        margin: 121px 0 124px;
+    }
+
+    .awards_page_before_sec::before {
+        left: 16%;
+    }
+
+    .awards_page_before_sec::after {
+        right: 16%;
+    }
+
+    .awards_page .container {
+        max-width: 626px;
+    }
+
+    /* Contact_Page */
+
+    .contact_page_after_set::after {
+        width: unset;
+    }
+
+    .contact_text-main-page {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        bottom: -48px;
+        z-index: 1;
+    }
+
+    .contact_text-main-page h2 {
+        color: #ffff;
+    }
+
+    .main_contact_sec {
+        margin: 85px 0 85px;
+    }
+
+    .main_contact h2 {
+        margin-bottom: 30px;
+    }
+
+    .additional {
+        margin: 0;
+    }
+
+    .column {
+        margin-bottom: 40px;
+    }
+
+    .form-group {
+        margin-bottom: -13px;
+        margin-top: 7px;
+    }
+}
+
+
+
+
+@media (max-width: 513px) {
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .banner-text {
+        top: 40%;
+    }
+
+    .kd-img-1 {
+        text-align: center;
+    }
+
+    .kd-img-1 img {
+        border-radius: 50%;
+    }
+
+    .logo img {
+        width: 75px;
+    }
+
+    .banner-text h3 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .banner-text p {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-conten h1 {
+        font-size: 28px;
+        text-align: center;
+        line-height: 38px;
+    }
+
+    .about-conten p {
+        font-size: 17px;
+        margin: 3px 0 16px;
+    }
+
+    .description {
+        margin: 6px 0 7px;
+        padding-left: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .background-dottd {
+        display: none;
+    }
+
+    .moblie-in-show {
+        display: block;
+    }
+
+    .moblie-in-show .nav-link {
+        color: #ff4612;
+        margin: auto;
+    }
+
+    .moblie-in-show .nav {
+        display: block;
+        column-count: 2;
+    }
+
+    .moblie-in-show .nav-tabs {
+        border-top: 1px solid #dee2e6;
+        border-bottom: unset;
+        margin-top: 40px;
+    }
+
+    .moblie-in-show h3 {
+        padding-top: 36px;
+        text-align: center;
+        padding-bottom: 36px;
+        font-size: 22px;
+        color: #ff4612;
+        margin: auto;
+    }
+
+    .costomr-page {
+        margin-top: 50px;
+    }
+
+    .img-solr-home img {
+        max-width: 89%;
+        margin-top: 39px;
+    }
+
+    .solar-home-main {
+        margin: 49px 0;
+    }
+
+    .about-png-sec img {
+        width: 66%;
+    }
+
+    .milestone .row {
+        display: block;
+    }
+
+    .milestone .patterns {
+        position: unset;
+    }
+
+    .milestone .context-container {
+        text-align: center;
+        width: 100%;
+        margin-top: -155px;
+    }
+
+    .milestone .image-container img {
+        left: -47px;
+        width: 100%;
+        right: 0;
+        top: -126px;
+        margin: auto;
+    }
+
+    .milestone {
+        padding: 391px 0 125px;
+    }
+
+    .milestone .background {
+        top: 8%;
+    }
+
+    .context-container h1 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .btn-solar {
+        text-align: center;
+        margin-top: 33px;
+    }
+
+    .clllr {
+        width: 454px;
+        height: 454px;
+        left: 0;
+    }
+
+    .main-page .owl-nav {
+        display: none;
+    }
+
+    .item.man-slider img {
+        width: 72%;
+    }
+
+    .previews {
+        display: none;
+    }
+
+    .main-footer {
+        margin-top: -100px;
+    }
+
+    .footer-logo img {
+        width: 26%;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+    .main-about-sec {
+        margin: 60px 0 95px;
+    }
+
+    .about_text-main-page {
+        text-align: center;
+    }
+
+    .brighte_text h2 {
+        text-align: center;
+    }
+
+    .brighte_text {
+        margin: 0px 20px;
+    }
+
+    .brighte_text p {
+        font-size: 17px;
+    }
+
+    .our_founding_left_content h2 {
+        text-align: center;
+    }
+
+    .our_founding_left_content {
+        padding: 16px 0px 0;
+        margin: 0 20px;
+    }
+
+    .our_founding_left_content p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    .our_founding_left_content p {
+        font-size: 18px;
+    }
+
+    .our_founding_right_img_only img {
+        width: 95%;
+        bottom: 22%;
+    }
+
+    .our_founding_right_img_only p {
+        font-size: 19px;
+        line-height: 32px;
+        margin-top: 25px;
+        padding: 0 20px 0px 20px;
+    }
+
+    .power_with_main_sec {
+        padding: 40px 20px 31px;
+    }
+
+
+    /* Products_Page */
+
+    .logo img {
+        width: 112px;
+    }
+
+    .main_product_sec {
+        margin: 91px 0 116px;
+    }
+
+    .product_text-main-page {
+        margin: 0;
+        width: 100%;
+    }
+
+    .main-footer {
+        margin-top: 50px;
+    }
+
+
+    /* Achievement_Page*/
+
+    .awards_page_before_sec::after {
+        display: none;
+    }
+
+    .awards_page_before_sec::before {
+        display: none;
+    }
+
+    .border_sec {
+        margin: 49px auto;
+    }
+
+    .achievement_text-main-page h2 {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    .awards_page h2 {
+        margin-bottom: -4px;
+    }
+
+    .main-achievement-sec {
+        margin: 90px 0 124px;
+    }
+
+    /* Contact_Page */
+
+
+}
+
+@media (max-width: 480px) {
+    .about-img-after {
+        display: none;
+    }
+
+    .about-conten {
+        margin-top: 21px;
+    }
+
+    .about-conten p {
+        font-size: 15px;
+        margin: 3px 0 16px;
+        line-height: 26px;
+    }
+
+    .about-png-sec {
+        margin-top: -23px;
+    }
+
+    .description {
+        line-height: 28px;
+        font-size: 18px;
+        margin: 5px 16px 6px;
+    }
+
+    .costomr-page h5 {
+        width: 93%;
+    }
+
+    .costomr-page h2 {
+        width: 93%;
+    }
+
+    .solar-home-main p {
+        font-size: 19px;
+        line-height: 33px;
+    }
+
+    .main-footer {
+        margin-top: -32px !important;
+    }
+
+
+    /* ABOUT_PAGE_SEC */
+
+    .our_founding_right_img_only img {
+        width: 95%;
+        bottom: 26%;
+    }
+
+    /* Products_Page */
+
+    .product_page_after_set::after {
+        height: 150px;
+    }
+
+    .product_text-main-page {
+        bottom: -24px;
+    }
+
+    .product_text-main-page h2 {
+        color: #fff;
+        line-height: 50px;
+        font-size: 46px;
+    }
+
+    .product_list_main h2 {
+        font-size: 37px;
+        text-align: center;
+    }
+
+
+    /* Achievement_Page*/
+
+    .main-footer {
+        margin-top: 88px;
+    }
+
+
+    /* Contact_Page */
+}
+
+@media (max-width: 458px) {
+    .milestone {
+        padding: 340px 0 125px;
+    }
+
+    .milestone .context-container {
+        margin-top: -201px;
+    }
+
+
+    /* ABOUT_PAGE_SEC */
+
+    .our_founding_right_img_only .pattern-circle {
+        width: 315px;
+        height: 315px;
+    }
+
+    .our_founding_right_img_only img {
+        width: 97%;
+        bottom: 25%;
+        left: 10px;
+    }
+
+    .our_founding_right_img_only p {
+        font-size: 17px;
+    }
+
+
+    /* Products_Page */
+
+    .product_list_main h2 {
+        margin-bottom: 88px;
+    }
+
+
+    /* Achievement_Page*/
+    .main-footer {
+        margin-top: 75px;
+    }
+
+    /* Contact_Page */
+}
+
+@media (max-width: 425px) {
+
+    .bg-banner-main img {
+        height: 565px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .banner-text {
+        top: 46%;
+    }
+
+    .moblie-in-show .nav-link {
+        padding: 0.5rem 4px;
+    }
+
+    .clllr {
+        width: 412px;
+        height: 412px;
+        left: 0;
+    }
+
+    .solar-home-main h2 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .solar-home-main p {
+        font-size: 16px;
+        margin-bottom: 19px;
+        line-height: 26px;
+    }
+
+    .milestone {
+        padding: 340px 0 125px;
+    }
+
+    .milestone .context-container {
+        margin-top: 140px;
+    }
+
+    .milestone .image-container img {
+        top: -278px;
+        left: 0;
+    }
+
+    .main-page {
+        height: 539px;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+    .about_page_after_set::after {
+        height: 126px;
+        bottom: -125px;
+    }
+
+    .about_text-main-page {
+        width: 100%;
+        bottom: -133px;
+        margin-left: 0;
+    }
+
+    .about_text-main-page h1 {
+        color: #fff;
+        font-size: 26px;
+        line-height: 14px;
+    }
+
+    .brighte_text {
+        margin: 51px 20px;
+    }
+
+    .about_text-main-page h2 {
+        font-size: 51px;
+    }
+
+    .brighte_text p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .our_founding_left_content p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .our_founding_right_img_only .pattern-circle {
+        width: 285px;
+        height: 286px;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 27% !important;
+    }
+
+    .patterns {
+        display: none;
+    }
+
+    .sosal-midia-icn a {
+        line-height: 43px;
+    }
+
+    /* Products_Page */
+    .main_product_sec {
+        margin: 91px 0 70px;
+    }
+
+    .product_list_main h2 {
+        display: none;
+    }
+
+    .product_list_main h3 {
+        display: block;
+        font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+        font-size: 33px;
+        line-height: 58px;
+        color: #333;
+        margin-bottom: 55px;
+        text-align: center;
+    }
+
+    .all_product_set {
+        margin-top: 20px;
+    }
+
+    /* Achievement_Page*/
+
+    .awards_page h2 {
+        font-size: 40px;
+    }
+
+    .main-footer {
+        margin-top: 92px !important;
+    }
+
+
+    /* Contact_Page */
+
+}
+
+@media (max-width: 411px) {
+    .banner-text h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .costomr-page h5 {
+        font-size: 21px;
+    }
+
+    .banner-text {
+        top: 45%;
+        left: 10%;
+    }
+
+    .about-conten h1 {
+        font-size: 21px;
+    }
+
+    .milestone {
+        padding: 323px 0 125px;
+    }
+
+    .milestone .pattern-circle {
+        background-image: none;
+    }
+
+    .milestone .image-container img {
+        left: 0;
+    }
+
+    .milestone .context-container {
+        margin-top: 140px;
+    }
+
+    .context-container h1 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .description {
+        line-height: 26px;
+        font-size: 16px;
+        margin: 4px 6px 3px;
+    }
+
+    .clllr {
+        width: 383px;
+        height: 383px;
+        left: 0;
+    }
+
+    .main-footer {
+        margin-top: -130px;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+    .our_founding_right_img_only .pattern-circle {
+        width: 259px;
+        height: 259px;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 25% !important;
+    }
+
+    .Vision_content_all h2 {
+        font-size: 24px;
+        line-height: 14px;
+    }
+
+    .Vision_content_all p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .power_with_main_sec {
+        padding: 16px 10px 23px;
+    }
+
+
+    /* Products_Page */
+
+    .product_page_after_set::after {
+        height: 121px;
+    }
+
+    .product_text-main-page {
+        bottom: -35px;
+    }
+
+    .product_text-main-page h2 {
+        line-height: 35px;
+    }
+
+    .product_text_sec p {
+        margin-top: 38px;
+    }
+
+    /* Achievement_Page*/
+    .main-footer {
+        margin-top: 92px;
+    }
+
+    /* Contact_Page */
+}
+
+@media (max-width: 393px) {
+    .about-conten h1 {
+        font-size: 20px;
+    }
+
+    .costomr-page h5 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .main-page {
+        height: 494px;
+    }
+
+    /* ABOUT_PAGE_SEC */
+    .about_text-main-page h1 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .about_text-main-page h2 {
+        font-size: 46px;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 26% !important;
+    }
+
+    .our_founding_right_img_only p {
+        font-size: 16px;
+        padding: 0 6px 0px 6px;
+    }
+
+
+    /* Products_Page */
+    .logo img {
+        width: 100px;
+    }
+
+    .main_product_sec {
+        margin: 79px 0 70px;
+    }
+
+    .main-footer {
+        margin-top: -42px;
+    }
+
+    /* Achievement_Page*/
+    .main-footer {
+        margin-top: 92px;
+    }
+
+    /* Contact_Page */
+}
+
+
+@media (max-width: 375px) {
+    .banner-text h3 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    .banner-text p {
+        font-size: 17px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .description {
+        line-height: 29px;
+        font-size: 14px;
+    }
+
+    .solar-home-main p {
+        font-size: 15px;
+    }
+
+    .solar-home-main h2 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .about-conten h1 {
+        font-size: 19px;
+    }
+
+    .head h1 {
+        font-size: 23px;
+    }
+
+    .moblie-in-show .nav {
+        column-count: 1;
+    }
+
+    .solar-home-main h5 {
+        margin-bottom: 5px;
+    }
+
+
+    /* ABOUT_PAGE_SEC */
+    .our_founding_left_content h2 {
+        font-size: 35px;
+    }
+
+    .our_founding_left_content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .our_founding_right_img_only .pattern-circle {
+        width: 231px;
+        height: 231px;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 22% !important;
+    }
+
+    .our_founding_right_img_only p {
+        font-size: 15px;
+        padding: 0 6px 0px 6px;
+        line-height: 25px;
+    }
+
+    /* Products_Page */
+    .product_text-main-page h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .product_text-main-page {
+        bottom: -32px;
+    }
+
+    .product_text-main-page h2 {
+        font-size: 42px;
+        letter-spacing: 1px;
+    }
+
+    /* Achievement_Page*/
+
+    .achievement_text-main-page h2 {
+        font-size: 39px;
+    }
+
+    /* Contact_Page */
+
+    .contact_text-main-page h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 358px) {
+    .banner-text {
+        top: 49%;
+    }
+
+    .about-conten h1 {
+        font-size: 18px;
+    }
+
+    .about-conten p {
+        text-align: justify;
+        margin: 3px 9px 16px;
+        font-size: 14px;
+    }
+
+    .clllr {
+        width: 352px;
+        height: 352px;
+        left: 0;
+    }
+
+    .item.man-slider img {
+        margin-top: 42px !important;
+    }
+
+    .costomr-page h5 {
+        font-size: 19px;
+    }
+
+    .costomr-page h2 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .carcal-btn {
+        margin-top: 20px;
+    }
+
+    .solar-home-main {
+        margin: 22px 0;
+    }
+
+    .solar-home-main h2 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /* ABOUT_PAGE_SEC */
+    .our_founding_left_content h2 {
+        margin-top: 15px;
+    }
+
+    .our_founding_right_img_only .pattern-circle {
+        width: 209px;
+        height: 209px;
+    }
+
+    .our_founding_right_img_only img {
+        left: 7px;
+    }
+
+    /* Products_Page */
+
+
+    /* Achievement_Page*/
+
+    .achievement_text-main-page h2 {
+        font-size: 39px;
+    }
+
+    .achievement_text-main-page h1 {
+        font-size: 24px;
+    }
+
+    /* Contact_Page */
+
+    .contact_text-main-page h2 {
+        font-size: 50px;
+    }
+
+    .contact_text-main-page h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 342px) {
+
+    .banner-text h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .banner-text {
+        top: 45%;
+    }
+
+    .about-conten h1 {
+        font-size: 17px;
+    }
+
+    .about-conten p {
+        font-size: 13px;
+    }
+
+    .about-png-sec {
+        margin-top: -7px;
+    }
+
+    .head h1 {
+        font-size: 22px;
+    }
+
+    .description {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .milestone .context-container {
+        margin-top: 154px;
+    }
+
+    .clllr {
+        width: 327px;
+        height: 327px;
+        left: 0;
+    }
+
+    .item.man-slider img {
+        margin-top: 31px !important;
+    }
+
+    .main-page {
+        height: 450px;
+    }
+
+    /* ABOUT_PAGE_SEC */
+
+    /* Achievement_Page*/
+
+    .achievement_text-main-page h1 {
+        font-size: 23px;
+    }
+
+    .main-achievement-sec {
+        margin: 51px 0 91px;
+    }
+
+    /* Contact_Page */
+
+    .contact_text-main-page h1 {
+        font-size: 22px;
+    }
+
+    .contact_text-main-page h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo img {
+        width: 63px;
+    }
+
+    .banner-text h3 {
+        font-size: 18px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        line-height: 29px;
+        margin-top: 15px;
+    }
+
+    .about-conten h1 {
+        font-size: 16px;
+    }
+
+    .about-conten p {
+        font-size: 12px;
+    }
+
+    .context-container h1 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .description {
+        line-height: 21px;
+        font-size: 13px;
+    }
+
+
+    /* ABOUT_PAGE_SEC */
+    .brighte_text h2 {
+        font-size: 34px;
+    }
+
+    .brighte_text p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .our_founding_right_img_only img {
+        bottom: 25% !important;
+    }
+
+    .main-footer {
+        margin-top: -96px;
+    }
+
+    /* Achievement_Page*/
+    .awards_page h2 {
+        font-size: 32px;
+    }
+
+    .main-achievement-sec {
+        margin: 51px 0 91px;
+    }
+
+    /* Contact_Page */
+
+    .column h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+}

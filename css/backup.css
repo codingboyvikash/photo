@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Avenir LT W01_35 Light1475496", sans-serif; */
+    background-color: #f9f9f9;
+}
+
+/* header scrool */
+
+.header.on-scroll {
+    display: none;
+
+}
+
+/* main style */
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transition: all 0.35s ease;
+}
+
+.bg-banner-main img {
+    width: 100%;
+
+}
+
+.logo img {
+    max-width: 100%;
+    width: 102px;
+
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.header .navbar {
+    padding: 21.5px 60px;
+}
+
+.header .navbar:hover {
+    background-color: #fff;
+
+    -webkit-transition: background-color 0.45s cubic-bezier(0.475, 0.425, 0, 0.995), padding 0.85s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: background-color 0.45s cubic-bezier(0.475, 0.425, 0, 0.995), padding 0.85s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.header .navbar:hover .nav-item a {
+    color: #a1a1a1;
+
+}
+
+.header .navbar:hover .nav-item a:hover {
+    color: #ff4612;
+    font-weight: 400;
+    border-bottom: 2px solid;
+
+}
+
+.header .collapse {
+    justify-content: end;
+}
+
+.header .nav-item a {
+    font-size: 17px;
+
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 36px;
+    color: #fff;
+}
+
+.menu-block {
+    color: white;
+    height: 48px;
+    text-decoration: none;
+    background-color: #de3f12;
+    border-radius: 24px;
+    padding: 12px 42px;
+    -webkit-transition: background-color 0.45s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: background-color 0.45s cubic-bezier(0.475, 0.425, 0, 0.995);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+a:hover.menu-block {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.bg-banner-main {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 27%;
+    left: 55%;
+}
+
+.banner-text h3 {
+    padding-right: 41%;
+    font-size: 52px;
+    color: #ffff;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    margin-top: 35px;
+    font-size: 22px;
+    line-height: 38px;
+    color: #fff;
+    padding-right: 27%;
+}
+
+.about-sec-main {
+    position: relative;
+}
+
+.about-img-after {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(../images/pattern-circle.png) center no-repeat;
+    background-size: 120px 120px;
+    position: absolute;
+    top: -50px;
+    left: 18%;
+}
+
+.about-png-sec {
+    position: absolute;
+    top: -25%;
+    right: 0;
+}
+
+.about-conten {
+    margin-top: 85px;
+}
+
+.about-conten h1 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #333;
+    font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+}
+
+.about-conten p {
+    margin: 40px 0 45px;
+    font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+    color: #827f7e;
+}
+
+.button-play {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(../images/icon-play.png) #ff4612 left 32px center no-repeat;
+    background-size: 18px 23px;
+    border-radius: 50%;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: all 0.35s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: all 0.35s cubic-bezier(0.475, 0.425, 0, 0.995);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-box-shadow: 0px 5px 14px 0px rgb(255 110 46 / 30%);
+    box-shadow: 0px 5px 14px 0px rgb(255 110 46 / 30%);
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+}
+
+.button-play:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
+}
+
+.button-play:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: url(../images/icon-play-border.svg) center/contain no-repeat;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+
+.button-play:hover:before {
+    animation: rotate-border 10s linear infinite;
+    -webkit-animation: rotate-border 10s linear infinite;
+}
+
+.button-icon {
+    color: #333;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 18px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+a.button-icon:hover {
+    color: #333;
+}
+
+.button-icon:before {
+    content: '';
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/icon-arrow-white.png) #ff4612 left -36px top no-repeat;
+    background-size: 72px 36px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 5px 14px 0px rgb(255 110 46 / 30%);
+    box-shadow: 0px 5px 14px 0px rgb(255 110 46 / 30%);
+    margin-right: 16px;
+    -webkit-transition: background-color 0.45s cubic-bezier(0.475, 0.425, 0, 0.995), background-position 0.6s cubic-bezier(0.835, -0.005, 0.06, 1);
+    transition: background-color 0.45s cubic-bezier(0.475, 0.425, 0, 0.995), background-position 0.6s cubic-bezier(0.835, -0.005, 0.06, 1);
+}
+
+.button-icon:hover:before {
+    background-color: #f24210;
+    background-position-x: 0;
+}
+
+.about-png-sec img {
+    width: 80%;
+}
+
+@keyframes rotate-border {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.img-time-icon {
+    width: 126px;
+    height: 93px;
+    background: url(../images/icon-stamp-reverse.png) no-repeat;
+    background-size: 126px 93px;
+    position: absolute;
+    top: 179px;
+    right: 32px;
+}
+
+.all-svg-set {
+    margin: 211px 0 200px;
+}
+
+.svg-icn-lives {
+    width: 200px;
+    margin: auto;
+}
+
+.icon-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: #ff4612;
+}
+
+.icon-content h1 {
+    font-family: "Avenir LT W01_95 Black1475556", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.icon-content h6{
+    font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
+    font-size: 26px;
+    line-height: 38px;
+    padding-left: 12px;
+}
+
+.empowered{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #827f7e;
+}
+
+.president-obama-sec{
+    text-align: center;
+    padding-bottom: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+.president-obama-sec h1{
+    font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #333;
+}
+
+.president-obama-sec p{
+    margin: 40px auto 70px;
+    font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+    color: #827f7e;
+}
+
+.president-obama-img img{
+    width: 100%;
+}
+
+.only-bg-clr{
+    position: absolute;
+    height: 80%;
+    left: 9%;
+    right: -104px;
+    top: 39%;
+    background-color: #ff5e31;
+    z-index: -1;
+}
+
+.main-sec-side{
+    width: 374px;
+    height: 375px;
+    margin-left: -153px;
+    border-radius: 50%;
+    background: url(../images/pattern-gray.png) repeat;
+    background-size: 20px 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.sec-set{
+    padding: 304px 0 0;
+}
+
+.content-wepper img{
+    width: 60%;
+    position: absolute;
+    left: -16%;
+    bottom: -95px;
+}
+
+.content-wepper h2{
+    font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+    font-size: 49px;
+    line-height: 58px;
+    color: white;
+    max-width: 95%;
+    text-align: right;
+}
+
+.content-wepper p{
+    margin: 40px 0 45px;
+    padding-left: 8.4%;
+    width: 98%;
+    color: white;
+    text-align: right;
+    font-family: "Avenir LT W01_35 Light1475496", sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 1px;
+}
+
+.button-plain {
+    height: 52px;
+    background-color: white;
+    color: #ff4612;
+    padding: 18px 44px;
+    right: -151px;
+    border-radius: 30px;
+    -webkit-transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    -webkit-box-shadow: 0px 20px 20px 0px rgb(240 65 16 / 40%);
+    box-shadow: 0px 20px 20px 0px rgb(240 65 16 / 40%);
+    position: relative;
+    padding-right: 72px;
+    overflow: hidden;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button-plain:hover {
+    -webkit-box-shadow: 0px 20px 20px 0px rgb(240 65 16 / 80%);
+    box-shadow: 0px 20px 20px 0px rgb(240 65 16 / 80%);
+    padding-right: 40px;
+    padding-left: 70px;
+    color: #de3f12;
+}
+
+.button-plain:hover .icon-arrow.hover {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.button-plain .icon-arrow.hover {
+    position: absolute;
+    top: 23px;
+    left: 40px;
+    -webkit-transform: translate3d(-190px, 0, 0);
+    transform: translate3d(-190px, 0, 0);
+    -webkit-transition: -webkit-transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: -webkit-transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995), -webkit-transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.icon-arrow {
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    background: url(img/icon-arrow-orange.png) no-repeat;
+    background-size: 14px 12px;
+}
+.button-plain:hover .icon-arrow:not(.hover) {
+    -webkit-transform: translate3d(80px, 0, 0);
+    transform: translate3d(80px, 0, 0);
+}
+.button-plain .icon-arrow:not(.hover) {
+    position: absolute;
+    top: calc(50% - 6px);
+    right: 40px;
+    -webkit-transition: -webkit-transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: -webkit-transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+    transition: transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995), -webkit-transform 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.icon-arrow {
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    background: url(../images/icon-arrow-orange.png) no-repeat;
+    background-size: 14px 12px;
+}
+
+.dlight-sec-content{
+    position: absolute;
+    bottom: -126px;
+}
+
+.cls-1 {
+    fill: none;
+    stroke: #2756fe;
+    stroke-width: 1px;
+    fill-rule: evenodd;
+  }
